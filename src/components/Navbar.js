@@ -20,15 +20,10 @@ const Navbar = () => {
                     <div className="navbar-item">
                         <div className="field is-grouped">
                             <p className="control">
-                                {/* <a className="button is-info" href="#">
-                                    <span>Login</span>
-                                </a>
+                                <CoolButton className="button is-info" text="Login"/>                                
                             </p>
                             <p className="control">
-                                <a className="button is-primary" href="#">
-                                    <span>Sign up</span>
-                                </a> */}
-                                <CoolButton />
+                                <CoolButton className="button is-primary" text="Signup"/>
                             </p>
                         </div>
                     </div>
